@@ -1,0 +1,17 @@
+[package]
+name = "tsundere-rustc"
+version = "0.1.0"
+edition = "2024"
+authors = ["あなたの名前 <you@example.com>"]
+description = "Rustコンパイルエラーをツンデレ口調で日本語に翻訳するCLI"
+license = "MIT"
+repository = "https://github.com/kazanefu/tsundere-rustc"
+readme = "README.md"
+categories = ["command-line-utilities"]
+keywords = ["rustc", "tsundere", "cli", "fun"]
+
+
+[dependencies]
+colored = "3.0.0"
+rand = "0.9.2"
+regex = "1"
